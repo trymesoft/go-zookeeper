@@ -3,9 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
+	zk "github.com/trymesoft/go-zookeeper"
 	"time"
-
-	"github.com/cloudzk/go-zookeeper"
 )
 
 var (
